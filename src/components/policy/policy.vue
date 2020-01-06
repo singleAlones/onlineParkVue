@@ -90,7 +90,10 @@ export default {
     .p_content h5{
         color: cornflowerblue;
         font-weight: bold;
+        font-size: 18px;
     }
-   
+   .p_content p{
+     font-size: 14px;
+   }
     
 </style>

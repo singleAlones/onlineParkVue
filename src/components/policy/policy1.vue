@@ -82,9 +82,11 @@ export default {
      .content h5{
          color:cornflowerblue;
          font-weight: bold;
+         font-size: 20px;
      }
      .content>p{
          text-indent: 2em;
+         font-size: 14px
      }
      @media (max-width:768px) {  
         .content h5{

@@ -1,5 +1,5 @@
  <template>
-     <div class="container-fluid p-0">
+     <div class="container-fluid p-0 bg">
      <div id="header" class="container d-flex p-0 my-2">
             <div class="logo  mr-auto  ">
                 <img class="img-fluid" src="../../assets/image/tabbar/logo.jpg" alt="">
@@ -44,6 +44,9 @@
  }
  </script>
  <style scoped>
+ .bg{
+   background-color: #fff;
+ }
     /* logo */
      .logo{
          width:28%; 

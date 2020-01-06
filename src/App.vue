@@ -34,6 +34,10 @@ export default {
 </script>
 <style>
      #app{
-       width:100%
+       width:100%;
+      
+      background-color:#F1F1F1 !important;
+   
      }
+
 </style>

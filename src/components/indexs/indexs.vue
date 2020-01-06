@@ -278,7 +278,7 @@
                        <router-link  :to="'news'"> 
                         <img src="../../assets/image/index/news1.jpg" class="card-img-top img-fluid" alt="">
                         <div class="card-body">
-                            <p class="card-text">省委联合督查组来大数据产业园督查稳增长工作</p>
+                            <p class="card-text">国家商务部电子商务司司长骞芳莉调研大数据产业园</p>
                         </div>
                        </router-link>
                     </div>
@@ -287,7 +287,7 @@
                         <router-link  :to="'news'"> 
                         <img src="../../assets/image/index/news2.jpg" class="card-img-top img-fluid" alt="">
                         <div class="card-body">
-                            <p class="card-text">大数据产业园龙头企业集聚上海，亮相第二界中国国际进口博览会</p>
+                            <p class="card-text">陕西省省委书记胡和平在铜川市调研</p>
                         </div>
                         </router-link>
                     </div>
@@ -296,7 +296,7 @@
                         <router-link  :to="'news'"> 
                         <img src="../../assets/image/index/news3.jpg" class="card-img-top img-fluid" alt="">
                         <div class="card-body">
-                            <p class="card-text">省统计局调研组来大数据产业园调研指导工作</p>
+                            <p class="card-text">省人大常委会副主任、省总工会主席郭大为视察数据产业园</p>
                         </div>
                         </router-link>
                     </div>
@@ -304,9 +304,9 @@
                    
                     <div class="card ml-3" >
                         <router-link  :to="'news'"> 
-                        <img src="../../assets/image/index/news3.jpg" class="card-img-top img-fluid" alt="">
+                        <img src="../../assets/image/index/news4.jpg" class="card-img-top img-fluid" alt="">
                         <div class="card-body">
-                            <p class="card-text">省统计局调研组来大数据产业园调研指导工作</p>
+                            <p class="card-text">陕西省政协副主席杨冠军到访世纪华耀调研</p>
                         </div>
                         </router-link>
                     </div>
@@ -363,6 +363,8 @@ export default {
 }
 </script>
 <style  scoped>
+
+  
      h4{
          font-size: 20px;
      }
@@ -404,14 +406,29 @@ export default {
        color:#fff;
      
    }
+   
    .service2 a{
          text-decoration: none;
          font-size:15px;
    }
    .card{
        width: 25%;
+       padding: 5px;
+       box-sizing: border-box;
+       transition:all 0.5s
+          
    }
- 
+   .card:hover{
+       transform:scale(1.1);
+       transition:all  0.5s
+   }
+   .card a:hover{
+       text-decoration: none;
+       
+   }
+   .card img{
+       border-radius: 5px;
+   }
     .mt20{
           margin-bottom:15px;
     }
@@ -419,7 +436,17 @@ export default {
         color:gray
     }
     .logo div{
-        width:25%;
+        width:24%;
         text-align: center;
+        border-radius: 10px;
+        background: #fff;
+        margin:10px;
     }
+    .logo div:first-child{
+        margin-left: 0;
+    }
+     .logo div:last-child{
+        margin-right: 0;
+    }
+   
 </style>
