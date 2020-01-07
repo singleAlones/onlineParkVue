@@ -135,8 +135,8 @@
                  <div class="introduce">
                     <h4 class="mt-4 d-flex justify-content-center">区位交通</h4>
                         <div class="row ">
-                        <div class="col-md-5 img col-lg-5 col-sm-3 col-xs-8 d-flex align-items-center">
-                             <img src="../../assets/image/aboutUs/garden1.jpg"  class="img-fluid" alt="">
+                        <div class="col-md-5 img col-lg-5 col-sm-3 col-xs-8 d-flex align-items-m">
+                             <img src="../../assets/image/aboutUs/garden1.jpg"  class="img-fluid  " alt="">
                         </div>
                         <div class="col-md-7 content1 col-lg-7 text   d-flex align-items-center">
                                耀州大数据产业园位于铜川市耀州区锦阳新城，210国道、包茂高速、延西高速、合凤高速以及在建的
@@ -188,15 +188,16 @@
        .introduce  .advance>div>div {
            width:50%;
            display: flex;
-           padding:30px;
+           padding:10px;
            box-sizing: border-box;
            background-color: #fff;
-           margin: 10px;
+           margin-left: 10px;
+           
            border-radius: 15px;
       }
       .introduce .advance img{
           width:80px;
-          
+          margin-top:20px;;
       }
       .introduce  .advance>div h5{
           color:#414141;
@@ -207,7 +208,7 @@
           color:#949494;
           font-size: 14px;
          text-align: justify;
-         margin-left: 20px;
+         margin-left: 10px;
       }
       
     </style>

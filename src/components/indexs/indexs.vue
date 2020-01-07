@@ -428,6 +428,9 @@ export default {
        text-decoration: none;
        
    }
+   .card-text{
+       font-size: 0.1em;
+   }
    .card img{
        border-radius: 5px;
    }
@@ -450,5 +453,5 @@ export default {
      .logo div:last-child{
         margin-right: 0;
     }
-   
+
 </style>
