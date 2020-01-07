@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="  container-fluid p-0">  
-             <img src="../../assets/image/garden/garden1.jpg" class="img-fluid" alt="">
+        <div class="  container-fluid p-0 top">  
+             <img src="../../assets/image/garden/garden1.png" class="img-fluid" alt="">
         </div>
         <div class="container mt-4 mb-4">
              
@@ -157,7 +157,18 @@
   }
 </script>
 <style scoped>
-    
+ 
+    .card  button{
+        font-size: 16px;
+         text-decoration: none;
+    }
+    .card button:hover{
+        text-decoration: none;
+    }
+    .card-body{
+        font-size: 14px;
+        text-indent: 2em;
+    }
 </style>
  
  

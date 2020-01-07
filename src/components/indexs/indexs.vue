@@ -406,7 +406,9 @@ export default {
        color:#fff;
      
    }
-   
+    .service>div img{
+        border-radius: 10px;
+    }
    .service2 a{
          text-decoration: none;
          font-size:15px;

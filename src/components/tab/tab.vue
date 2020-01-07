@@ -76,7 +76,7 @@
     .tabbar nav a{
         
         text-decoration: none;
-        color:aliceblue;
+        color:#ffff;
         display: inline-block;
       }
       .tabbar nav a:hover{

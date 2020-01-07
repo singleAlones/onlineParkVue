@@ -27,7 +27,70 @@
                 </div>
                 <div class="introduce">
                         <h4 class="mt-4 d-flex justify-content-center">园区优势</h4>
-                         <img src="../../assets/image/aboutUs/advantage.jpg"  class="img-fluid" alt="">
+                         
+                         <div class="advance">
+                               <div>
+                                   <div>
+                                          <div>
+                                             <img src="../../assets/image/aboutUs/1.png" alt="">
+                                          </div>
+                                          <div>
+                                                <h5>区域最佳</h5>
+                                                 <p>药王故里，红色照金，丝绸之路起点，距离西安机场40分钟车程，陕甘南照金革命根据地所在</p>
+                                          </div>
+                                           
+                                   </div>
+                                   <div>
+                                       <div>
+                                             <img src="../../assets/image/aboutUs/2.png" alt="">
+                                          </div>
+                                          <div>
+                                                <h5>高效物流</h5>
+                                                 <p>城市工业品产业聚集高效物流网状物流体系、城市内具备工业铁路、城市内外公路和高铁网状全面覆盖</p>
+                                          </div>
+                                   </div>
+                                   <div>
+                                       <div>
+                                             <img src="../../assets/image/aboutUs/3.png" alt="">
+                                          </div>
+                                          <div>
+                                                <h5>政策保障</h5>
+                                                 <p>西部大开发优惠政策 <br> 市、区两级共建重点项目 </p>
+                                                 
+                                          </div>
+                                   </div>
+                               </div>
+                               <div>
+                                    <div>
+                                          <div>
+                                             <img src="../../assets/image/aboutUs/4.png" alt="">
+                                          </div>
+                                          <div>
+                                                <h5>配套发展</h5>
+                                                 <p>打造电子商务平台企业为核心的产业聚集发展电子商务平台企业，构建工业电子商务平台西北发展生态圈</p>
+                                          </div>
+                                           
+                                   </div>
+                                   <div>
+                                       <div>
+                                             <img src="../../assets/image/aboutUs/5.png" alt="">
+                                          </div>
+                                          <div>
+                                                <h5>落户服务</h5>
+                                                 <p>全托管异地经营，0跑动异地注册，0门槛资质办理，无抵押20-500万，低至基准利率一年贷款</p>
+                                          </div>
+                                   </div>
+                                   <div>
+                                       <div>
+                                             <img src="../../assets/image/aboutUs/6.png" alt="">
+                                          </div>
+                                          <div>
+                                                <h5>产业聚集</h5>
+                                                 <p>聚焦陕西省铜川市优势产业:化工品、工业品、煤炭、水泥、钢材、个人安全防护、地方特色产品、仓储物流</p>
+                                          </div>
+                                   </div>
+                               </div>
+                         </div>
                     </div>
 
                     <div class="introduce">
@@ -101,7 +164,7 @@
        }
         .introduce img{
             border:1px solid transparent;
-            border-radius:5%;
+            border-radius:10px;
         }
        .text{
            color:black;
@@ -113,6 +176,38 @@
            
       .introduce h4{
           font-weight: bold;
+          font-size: 16px !important;
+      }
+      .introduce div{
+          font-size: 14px;
+      }
+      .introduce  .advance>div {
+          display: flex;
+          margin: 15px;
+      }
+       .introduce  .advance>div>div {
+           width:50%;
+           display: flex;
+           padding:30px;
+           box-sizing: border-box;
+           background-color: #fff;
+           margin: 10px;
+           border-radius: 15px;
+      }
+      .introduce .advance img{
+          width:80px;
+          
+      }
+      .introduce  .advance>div h5{
+          color:#414141;
+          font-size: 16px;
+         text-align: center
+      }
+      .introduce  .advance>div p{
+          color:#949494;
+          font-size: 14px;
+         text-align: justify;
+         margin-left: 20px;
       }
       
     </style>

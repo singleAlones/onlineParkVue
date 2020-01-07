@@ -44,4 +44,7 @@
         color:white;
         font-weight: bold;
     }
+    img{
+      border-radius: 10px;
+    }
       </style>  

@@ -27,3 +27,13 @@ export default {
      name:'carousels'
 }
 </script>
+<style scoped>
+     .carousel{
+       width: 60% !important;
+       padding: 0px !important;    
+     }
+     .carousel-item img{
+        border-radius: 15px !important;
+     }
+    
+</style>

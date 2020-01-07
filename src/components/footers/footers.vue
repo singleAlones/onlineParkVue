@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div  >
         <!-- 页尾第一部分 -->
         <div class="footer1">
             <h4>友情提醒</h4>
@@ -81,6 +81,7 @@ export default {
 }
 </script>
 <style  scoped>
+  
     /* 第一部分 */
     .footer1{
         display: flex;
@@ -113,6 +114,7 @@ export default {
     .footer2{
         width:70%; 
         margin-left: 3%;
+      
     }
     
     .footer2>div>div{
@@ -123,7 +125,7 @@ export default {
         width:24%;
     }
     .footer2 p{
-        color: whitesmoke;     
+        color: #fff;     
         text-align: center;      
     }
     .footer2 div ul,.last div ul{
@@ -135,14 +137,14 @@ export default {
     }
     .footer2 div ul li a,.footer2 div  p a {
         text-decoration: none;
-        color:white;
+        color:#ffff;
     }
     /* 最后一部分 */
     .last{
         display: flex;
     }
     .line{
-        border-right:2px solid #dddddd;
+        border-right:2px solid #fff;
         height: 180px;
 
     }
@@ -150,8 +152,9 @@ export default {
         width:30%
     }
     .last p{
-        color:whitesmoke; 
+        color:#ffff; 
         margin-left:5%;
+           
     }
     .footer_last{
         width:98%;
@@ -161,7 +164,7 @@ export default {
          list-style-type: none;
      }
      .last div ul li span{
-         color:#dddddd;
+         color:#fff;
          margin-left:2%;
      }
      .footer_last ul li{
