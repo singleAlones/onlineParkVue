@@ -135,7 +135,7 @@
                  <div class="introduce">
                     <h4 class="mt-4 d-flex justify-content-center">区位交通</h4>
                         <div class="row ">
-                        <div class="col-md-5 img col-lg-5 col-sm-3 col-xs-8 d-flex align-items-m">
+                        <div class="col-md-5 img col-lg-5 col-sm-3 col-xs-8 d-flex align-items-center">
                              <img src="../../assets/image/aboutUs/garden1.jpg"  class="img-fluid  " alt="">
                         </div>
                         <div class="col-md-7 content1 col-lg-7 text   d-flex align-items-center">
@@ -206,7 +206,7 @@
       }
       .introduce  .advance>div p{
           color:#949494;
-          font-size: 14px;
+          font-size: 0.5rem;
          text-align: justify;
          margin-left: 10px;
       }

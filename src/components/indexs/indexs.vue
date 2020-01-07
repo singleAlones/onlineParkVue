@@ -429,7 +429,7 @@ export default {
        
    }
    .card-text{
-       font-size: 0.1em;
+       font-size: 0.5em;
    }
    .card img{
        border-radius: 5px;
