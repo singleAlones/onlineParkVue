@@ -417,8 +417,8 @@ export default {
        width: 25%;
        padding: 5px;
        box-sizing: border-box;
-       transition:all 0.5s
-          
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.2);
+        transition: all 1s ease  
    }
    .card:hover{
        transform:scale(1.1);
@@ -446,6 +446,8 @@ export default {
         border-radius: 10px;
         background: #fff;
         margin:10px;
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.2);
+        transition: all 1s ease
     }
     .logo div:first-child{
         margin-left: 0;

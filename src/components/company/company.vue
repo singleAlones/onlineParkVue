@@ -223,6 +223,8 @@
             width: 60%;
             margin:15px auto;
             border-radius: 20px;
+            box-shadow: 3px 3px 7px rgba(0,0,0,0.2);
+            transition: all 1s ease
         }
         .mobei div{
             width:25%;

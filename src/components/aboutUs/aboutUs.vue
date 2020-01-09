@@ -192,7 +192,8 @@
            box-sizing: border-box;
            background-color: #fff;
            margin-left: 10px;
-           
+           box-shadow: 3px 3px 7px rgba(0,0,0,0.2);
+           transition: all 1s ease;
            border-radius: 15px;
       }
       .introduce .advance img{

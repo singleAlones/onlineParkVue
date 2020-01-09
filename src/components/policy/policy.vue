@@ -82,6 +82,7 @@ export default {
         
         margin:10px;
         border-radius: 10px;
+        
     }
      
     .p_content div{
