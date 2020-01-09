@@ -157,7 +157,10 @@
   }
 </script>
 <style scoped>
- 
+     .card{
+            box-shadow: 3px 3px 7px rgba(0,0,0,0.2);
+        transition: all 1s ease  
+     }
     .card  button{
         font-size: 16px;
          text-decoration: none;
@@ -168,6 +171,7 @@
     .card-body{
         font-size: 14px;
         text-indent: 2em;
+       
     }
 </style>
  
