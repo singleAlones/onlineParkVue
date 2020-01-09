@@ -6,7 +6,7 @@
             </div>
             <div class="concat  align-self-center d-flex  justify-content-end ">
                 <img src="../../assets/image/tabbar/phone.png" class="img-fluid logo" alt="">
-                <p class="m-0  align-self-center d-flex">客服电话：0919-2861222</p>
+                <p class="m-0  align-self-center d-flex">客服电话：15353837992</p>
             </div>
      </div>
      <div class="container-fluid tabbar p-0 nav1">

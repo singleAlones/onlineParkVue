@@ -82,7 +82,8 @@ export default {
         
         margin:10px;
         border-radius: 10px;
-        
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.2);
+    transition: all 1s ease
     }
      
     .p_content div{

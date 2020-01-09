@@ -12,9 +12,7 @@ import  carousels from '../components/carousel/carousels';
 import  footers from '../components/footers/footers';
 import  policy1 from '../components/policy/policy1';
 import  news from '../components/news/news';
-import  register from  '../components/indexs/service/register';
-import  login from  '../components/indexs/service/login';
-import  bank from  '../components/indexs/service/bank';
+ 
 
 Vue.use(Router);
 
@@ -80,21 +78,6 @@ export default new Router({
             path:'/news',
             name:'news',
             component:news
-        },
-        {
-            path:'/register',
-            name:'register',
-            component:register
-        },
-        {
-            path:'/login',
-            name:'login',
-            component:login
-        },
-        {
-            path:'/bank',
-            name:'bank',
-            component:bank
         }
     ]
 })
